@@ -1,17 +1,18 @@
 {
-  "name": "eslint-config-doly",
+  "name": "eslint-config-doly-react",
   "version": "0.0.1",
-  "description": "doly' base javascript ESLint config",
+  "description": "doly javascript ESLint config",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/doly-dev/eslint-config-doly.git",
-    "directory": "packages/eslint-config-doly"
+    "directory": "packages/eslint-config-doly-react"
   },
   "keywords": [
     "eslint",
     "eslintconfig",
+    "react",
     "config",
     "doly",
     "javascript",
@@ -32,19 +33,22 @@
     "eslint-plugin-import": "^2.17.2",
     "eslint-plugin-node": "^7.0.0",
     "eslint-plugin-promise": "^4.0.0",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-react": "^7.6.1"
   },
   "peerDependencies": {
     "eslint": "^4.19.1 || ^5.3.0",
     "eslint-plugin-import": ">=2.13.0",
     "eslint-plugin-node": ">=7.0.0",
     "eslint-plugin-promise": ">=4.0.0",
-    "eslint-plugin-standard": ">=4.0.0"
+    "eslint-plugin-standard": ">=4.0.0",
+    "eslint-plugin-react": ">=7.6.1"
   },
   "engines": {
     "node": ">= 4"
   },
   "dependencies": {
-    "eslint-config-standard": "^12.0.0"
+    "eslint-config-standard": "^12.0.0",
+    "eslint-config-standard-react": "^7.0.2"
   }
 }
