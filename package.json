@@ -1,0 +1,18 @@
+{
+  "name": "doyl-style",
+  "private": true,
+  "description": "A share eslint config for doly",
+  "workspaces": [
+    "packages/*"
+  ],
+  "author": "roxy_huang<sixin_hunang@outlook.com> (https://twitter.com/hshoff)",
+  "devEngines": {
+    "node": "8.x || 9.x || 10.x || 11.x || 12.x"
+  },
+  "devDependencies": {
+    "lerna": "^3.14.1"
+  },
+  "scripts": {
+
+  }
+}
