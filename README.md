@@ -1,1 +1,1 @@
-# Airbnb JavaScript Style Guide
+# Doly JavaScript Style Guide
