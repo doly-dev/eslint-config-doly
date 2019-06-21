@@ -1,11 +1,10 @@
 {
   "name": "doyl-style",
   "private": true,
-  "description": "A share eslint config for doly",
   "workspaces": [
     "packages/*"
   ],
-  "author": "roxy_huang<sixin_hunang@outlook.com> (https://twitter.com/hshoff)",
+  "author": "roxy_huang<sixin_hunang@outlook.com> ()",
   "devEngines": {
     "node": "8.x || 9.x || 10.x || 11.x || 12.x"
   },
@@ -14,5 +13,22 @@
   },
   "scripts": {
 
-  }
+  },
+  "keywords": [
+    "style guide",
+    "lint",
+    "doly",
+    "es6",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018",
+    "react",
+    "jsx"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doly-dev/eslint-config-doly/issues"
+  },
+  "homepage": "https://github.com/doly-dev/eslint-config-doly"
 }
