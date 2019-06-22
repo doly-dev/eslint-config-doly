@@ -12,7 +12,7 @@
     "lerna": "^3.14.1"
   },
   "scripts": {
-
+      "test": "ls"
   },
   "keywords": [
     "style guide",

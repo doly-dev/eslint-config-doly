@@ -1,11 +1,14 @@
 sudo: required
 language: node_js
 node_js:
-  - "12"
-  - "11"
-  - "10"
-  - "9"
   - "8"
 
 install:
   - yarn
+
+branches:
+  only:
+    - master
+env:
+ global:
+
