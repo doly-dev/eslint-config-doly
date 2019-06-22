@@ -1,4 +1,11 @@
 sudo: required
 language: node_js
 node_js:
-  - "8.11.3"
+  - "12"
+  - "11"
+  - "10"
+  - "9"
+  - "8"
+
+install:
+  - yarn
