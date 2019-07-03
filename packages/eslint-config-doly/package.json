@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-doly",
-  "version": "0.0.1",
+  "version": "0.0.2-alpha.0",
   "description": "doly' base javascript ESLint config",
   "main": "index.js",
   "scripts": {},
