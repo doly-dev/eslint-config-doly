@@ -8,9 +8,13 @@ doly研发团队的使用合理使用javascript的风格指南
 
 适用于javascript的风格指南
 
+[eslint-config-doly](https://github.com/doly-dev/eslint-config-doly/tree/master/packages/eslint-config-doly)
+
 ## eslint-config-doly-react
 
 适用于react的风格指南
+
+[eslint-config-doly-react](https://github.com/doly-dev/eslint-config-doly/tree/master/packages/eslint-config-doly-react)
 
 ## License
 

@@ -1,3 +1,5 @@
+const { errorRules } = require('./rules/errors');
+
 module.exports = {
   extends: [
     'eslint-config-doly',
@@ -5,5 +7,7 @@ module.exports = {
   ].map(require.resolve),
   parserOptions: {},
   plugins: ['react'],
-  rules: {},
+  rules: {
+    ...errorRules
+  },
 };

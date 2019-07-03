@@ -1,6 +1,9 @@
+const { errorRules } = require('./rules/errors');
+
 module.exports = {
   extends: [
     'eslint-config-standard',
+    // './rules/error'
   ].map(require.resolve),
   parserOptions: {
     ecmaVersion: 2018,
@@ -8,6 +11,6 @@ module.exports = {
     ecmaFeatures: { jsx: true }
   },
   rules: {
-    // "no-unused-vars": [1]
+      ...errorRules
   },
 };
