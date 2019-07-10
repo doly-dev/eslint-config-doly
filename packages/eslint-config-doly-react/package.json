@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-doly-react",
-  "version": "0.0.2-alpha.0",
+  "version": "0.0.2-alpha.1",
   "description": "doly javascript ESLint config",
   "main": "index.js",
   "scripts": {},
@@ -38,12 +38,12 @@
     "node": "^6.14.0 || ^8.10.0 || >=9.10.0"
   },
   "dependencies": {
-    "eslint-config-doly": "0.0.1-alpha.0",
+    "eslint-config-doly": "^0.0.2-alpha.1",
     "eslint-config-standard-react": "^7.0.2",
-    "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-react": "^7.6.1",
     "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-promise": "^4.2.1"
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.6.1",
+    "eslint-plugin-standard": "^4.0.0"
   }
 }
