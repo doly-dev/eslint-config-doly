@@ -1,9 +1,9 @@
 const { errorRules } = require('./rules/errors');
 
 module.exports = {
-  parser: "babel-eslint",
+  parser: 'babel-eslint',
   extends: [
-    'eslint-config-standard',
+    'eslint-config-airbnb-base',
     // './rules/error'
   ].map(require.resolve),
   parserOptions: {
