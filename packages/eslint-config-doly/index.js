@@ -1,6 +1,7 @@
 const { errorRules } = require('./rules/errors');
 
 module.exports = {
+  parser: "babel-eslint",
   extends: [
     'eslint-config-standard',
     // './rules/error'
